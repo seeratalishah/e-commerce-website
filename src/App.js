@@ -1,7 +1,13 @@
+import SubHeader from "./components/common/subHeader/index.tsx";
+import TopHeader from "./components/common/topHeader";
+
 function App() {
   return (
     <div className="App">
-     <h1>Hello World</h1>
+     <div className="main-container">
+        <TopHeader />
+        <SubHeader />
+      </div>
     </div>
   );
 }

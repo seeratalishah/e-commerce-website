@@ -1,0 +1,19 @@
+.main-container {
+  margin-inline: 80px;
+
+  @media only screen and (max-width: 576px) {
+    margin-inline: 10px;
+  }
+
+  @media only screen and (min-width: 577px) and (max-width: 991px) {
+    margin-inline: 30px;
+  }
+
+  .light-text {
+    color: rgb(158, 154, 154);
+  }
+
+  .primary-text{
+    color: var(--bg-primary);
+  }
+}

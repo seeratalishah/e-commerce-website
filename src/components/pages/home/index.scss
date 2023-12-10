@@ -1,0 +1,28 @@
+.brands{
+    margin-top: 80px;
+    img{
+        border: 1px solid var(--bg-secondary);
+        box-shadow: var(--box-shadow);
+    }
+}
+
+.accessories{
+    margin-top: 80px;
+
+    img{
+        width: 100%;
+        min-height: 400px;
+        border-radius: 4px;
+    }
+
+    .image-container{
+        position: relative;
+
+        .accessories-btn{
+            position: absolute;
+            bottom: 10px;
+            right: auto;
+            left: auto;
+        }
+    }
+}
